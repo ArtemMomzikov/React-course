@@ -1,11 +1,11 @@
-import './App.css';
 import {Fragment} from 'react';
-import {CardInput} from './Input_Card/card_input';
+import {UserDataFetcher} from './ContactBook_v2/user_data_fetcher/user_data_fetcher';
+import './App.css';
 
 function App() {
   return (
     <Fragment>
-        <CardInput />
+        <UserDataFetcher />
     </Fragment>
   );
 }
