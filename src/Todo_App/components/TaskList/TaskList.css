@@ -1,0 +1,46 @@
+.task-list {
+    font-size: 18px;
+}
+
+.task-list > div {
+    display: flex;
+    padding: 5px;
+}
+
+.task-list input {
+    margin-right: 5px;
+}
+
+.task-list button {
+    border-radius: 3px;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-edit {
+    margin: 3px;
+    background-color: #289c10;
+    border-color: #289c10;
+}
+
+.button-delete {
+    margin: 3px;
+    background-color: #f10018;
+    border-color: #f10018;
+    color: #ffffff;
+}
+
+.finished, .unfinished {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.finished {
+    text-decoration: line-through;
+}

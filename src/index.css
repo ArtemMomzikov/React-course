@@ -18,10 +18,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-#root {
-  min-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
